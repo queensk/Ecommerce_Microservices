@@ -3,6 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E_Auth", "E_Auth\E_Auth.csproj", "{C5EBA23B-5EAD-42D5-868E-7FC8EB02720A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E_Coupons", "E_Coupons\E_Coupons.csproj", "{64F0C000-8EA1-4387-94F1-5A9E39613974}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E_Products", "E_Products\E_Products.csproj", "{F797CFEC-CE2B-4191-B733-0AC1CB29F961}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E_Cart", "E_Cart\E_Cart.csproj", "{379B0081-4CFA-4D56-BA70-C1A9CD048AB1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +18,23 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5EBA23B-5EAD-42D5-868E-7FC8EB02720A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5EBA23B-5EAD-42D5-868E-7FC8EB02720A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5EBA23B-5EAD-42D5-868E-7FC8EB02720A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5EBA23B-5EAD-42D5-868E-7FC8EB02720A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64F0C000-8EA1-4387-94F1-5A9E39613974}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64F0C000-8EA1-4387-94F1-5A9E39613974}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64F0C000-8EA1-4387-94F1-5A9E39613974}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64F0C000-8EA1-4387-94F1-5A9E39613974}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F797CFEC-CE2B-4191-B733-0AC1CB29F961}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F797CFEC-CE2B-4191-B733-0AC1CB29F961}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F797CFEC-CE2B-4191-B733-0AC1CB29F961}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F797CFEC-CE2B-4191-B733-0AC1CB29F961}.Release|Any CPU.Build.0 = Release|Any CPU
+		{379B0081-4CFA-4D56-BA70-C1A9CD048AB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{379B0081-4CFA-4D56-BA70-C1A9CD048AB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{379B0081-4CFA-4D56-BA70-C1A9CD048AB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{379B0081-4CFA-4D56-BA70-C1A9CD048AB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
