@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E_Products", "E_Products\E_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E_Cart", "E_Cart\E_Cart.csproj", "{379B0081-4CFA-4D56-BA70-C1A9CD048AB1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E_MessageBus", "E_MessageBus\E_MessageBus.csproj", "{443F3367-EEFE-4566-B936-1D3947735B64}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{379B0081-4CFA-4D56-BA70-C1A9CD048AB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{379B0081-4CFA-4D56-BA70-C1A9CD048AB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{379B0081-4CFA-4D56-BA70-C1A9CD048AB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{443F3367-EEFE-4566-B936-1D3947735B64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{443F3367-EEFE-4566-B936-1D3947735B64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{443F3367-EEFE-4566-B936-1D3947735B64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{443F3367-EEFE-4566-B936-1D3947735B64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

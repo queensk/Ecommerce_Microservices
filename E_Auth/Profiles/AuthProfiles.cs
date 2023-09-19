@@ -13,7 +13,7 @@ namespace E_Auth.Profiles
         public AuthProfiles()
         {
             CreateMap<RegisterRequestDto, ApplicationUser>()
-                .ForMember(u => u.UserName, opt => opt.MapFrom(x => x.Email));
+                .ForMember(u => u.UserName, opt => opt.MapFrom(u => u.Email));
             CreateMap<ApplicationUser, UserDto>();
         }     
     }
