@@ -11,7 +11,7 @@ namespace E_MessageBus
 {
     public class MessageBus : IMessageBus
     {
-        public string ConnectionString ="";
+        public string ConnectionString ="Endpoint=sb://thesocialplace.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=qKydd6jwP2SDJpBY7CwkNFOiWbA5hlIOG+ASbI+xXz4=";
 
         public async Task PublishMessage(object message, string queue_topic_name)
         {
